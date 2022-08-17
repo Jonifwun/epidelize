@@ -1,0 +1,203 @@
+[
+    {
+        "id": "234226",
+        "keywords": ["steroid", "dimer"],
+        "names": "Conjugate A",
+        "ClogP": "4.22",
+        "hydrolysableBond": "Carbonate",
+        "formula": "C10H14N2O3",
+        "mw": 724.28,
+        "mp": 129,
+        "dryTg": 67,
+        "wetTg": 60,
+        "type": "Dimer",
+        "structure": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Dopamine_chemical_structure.png",
+        "designer": "JD",
+        "DOS": "19/11/20",
+        "description": "Steroid dimer for 9 month release",
+        "slug": "conjugate-a",
+        "gate": {
+            "gatesPassed": "1",
+            "summary": "",
+            "failed": false
+        },
+        "releaseData": {
+            "pbs": [
+            {"x": 1, "y": 0.1},
+            {"x": 2, "y": 0.12},
+            {"x": 3, "y": 0.15}
+        ],
+            "fbs": [
+            {"x": 1, "y": 0.2},
+            {"x": 2, "y": 0.5},
+            {"x": 3, "y": 0.10}
+        ]
+    }
+    },
+    {
+        "id": "234227",
+        "keywords": ["prostaglandin", "steroid"],
+        "names": "Conjugate B",
+        "ClogP": "5.79",
+        "hydrolysableBond": "Ester",
+        "formula": "C10H14N2O3",
+        "mw": 786.31,
+        "mp": 156,
+        "dryTg": 120,
+        "wetTg": 115,
+        "type": "Heterodimer",
+        "structure": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Dopamine_chemical_structure.png",
+        "designer": "MAJS",
+        "DOS": "12/06/21",
+        "description": "Prostaglandin conjugate for IOP lowering",
+        "slug": "conjugate-b",
+        "gate": {
+            "gatesPassed": "1",
+            "summary": "",
+            "failed": false
+        },
+        "releaseData": {
+           "pbs": [
+            {"x": 1, "y": 5},
+            {"x": 2, "y": 10},
+            {"x": 3, "y": 15}
+        ],
+        "fbs": [
+            {"x": 1, "y": 0.2},
+            {"x": 2, "y": 0.5},
+            {"x": 3, "y": 0.10}
+        ]
+    }
+    },
+    {
+        "id": "234228",
+        "keywords": ["TKI inhibitor", "dimer"],
+        "names": "Conjugate C",
+        "hydrolysableBond": "Carbonate",
+        "formula": "C10H14N2O3",
+        "mw": 991.08,
+        "ClogP": "3.84",
+        "mp": 210,
+        "dryTg": 135,
+        "wetTg": 110,
+        "type": "Monomer",
+        "structure": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Dopamine_chemical_structure.png",
+        "designer": "JD",
+        "DOS": "07/01/22",
+        "description": "TKI inhibitor for ocular delivery",
+        "slug": "conjugate-c",
+        "gate": {
+            "gatesPassed": "2",
+            "summary": "",
+            "failed": false
+        },
+        "releaseData": {
+            "pbs": [
+            {"x": 1, "y": 5},
+            {"x": 2, "y": 10},
+            {"x": 3, "y": 15}
+        ],
+        "fbs": [
+            {"x": 1, "y": 0.3},
+            {"x": 2, "y": 0.8},
+            {"x": 3, "y": 0.9}
+        ]
+    }
+    },
+    {
+        "id": "234229",
+        "keywords": ["steroid", "prostaglandin", "linker"],
+        "names": "Conjugate D",
+        "ClogP": "4.90",
+        "hydrolysableBond": "Ester",
+        "formula": "C10H14N2O3",
+        "mw": 491.18,
+        "mp": 99,
+        "dryTg": 42,
+        "wetTg": 35,
+        "type": "Heterodimer",
+        "structure": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Dopamine_chemical_structure.png",
+        "designer": "MAJS",
+        "DOS": "27/02/19",
+        "description": "Heterodimer linker compound",
+        "slug": "conjugate-d",
+        "gate": {
+            "gatesPassed": "2",
+            "summary": "",
+            "failed": true
+        },
+        "releaseData": {
+            "pbs": [{"x": 1, "y": 8},
+            {"x": 2, "y": 9},
+            {"x": 3, "y": 14}
+        ],
+        "fbs": [
+            {"x": 1, "y": 10},
+            {"x": 2, "y": 20},
+            {"x": 3, "y": 30}
+        ]
+    }
+    },
+    {
+        "id": "234221",
+        "keywords": ["TKI inhibitor", "monomer"],
+        "names": "Conjugate E",
+        "ClogP": "4.11",
+        "hydrolysableBond": "Amide",
+        "formula": "C10H14N2O3",
+        "mw": 1003.26,
+        "mp": 123,
+        "dryTg": 55,
+        "wetTg": 50,
+        "type": "Dimer",
+        "structure": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Dopamine_chemical_structure.png",
+        "designer": "JD",
+        "DOS": "17/05/21",
+        "description": "TKI inhibitor monomer",
+        "slug": "conjugate-e",
+        "gate": {
+            "gatesPassed": "3",
+            "summary": "",
+            "failed": false
+        },
+        "releaseData": {
+            "pbs": [
+            {"x": 1, "y": 10},
+            {"x": 2, "y": 12},
+            {"x": 3, "y": 14}
+        ],
+        "fbs": [
+            {"x": 1, "y": 15},
+            {"x": 2, "y": 30},
+            {"x": 3, "y": 45}
+        ]
+    }
+    },
+    {
+        "id": "234222",
+        "keywords": ["steroid", "dimer"],
+        "names": "Conjugate F",
+        "ClogP": "2.11",
+        "hydrolysableBond": "Carbamate",
+        "formula": "C10H14N2O3",
+        "mw": 727.29,
+        "mp": 186,
+        "dryTg": 72,
+        "wetTg": 65,
+        "type": "Monomer",
+        "structure": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Dopamine_chemical_structure.png",
+        "designer": "MAJS",
+        "DOS": "03/10/21",
+        "description": "Fast release steroid dimer",
+        "slug": "conjugate-f",
+        "gate": {
+            "gatesPassed": "4",
+            "summary": "",
+            "failed": true
+        },
+        "releaseData": {
+            "pbs": [], 
+        "fbs": []
+    }
+    }
+]
