@@ -1,6 +1,6 @@
 import { Header, Footer } from '@components/ui'
 
-const Layout = ({children, onSearchChange }) => {
+const Layout = ({ children, onSearchChange }) => {
     return (
         <>
           <div className="max-w-7xl flex flex-col min-h-screen mx-auto">

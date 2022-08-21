@@ -5,7 +5,8 @@ const nextConfig = {
     domains: [
       'upload.wikimedia.org',
       'www.pharmaexcipients.com',
-      'firebasestorage.googleapis.com'
+      'firebasestorage.googleapis.com',
+      'www.andersonmaterials.com'
     ]
   }
 }

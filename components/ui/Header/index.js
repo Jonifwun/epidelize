@@ -50,8 +50,7 @@ const Header = ({ onSearchChange, searchTerm }) => {
                         <input 
                           type="search"
                           id="default-search"
-                          className="block p-4 pl-10 rounded-sm w-50 text-sm text-gray-900 bg-gray-50 border border-gray-300 dark:bg-gray-700 dark:placeholder-gray-400 dark:text-white outline-none" placeholder="Search conjugates..."
-                          required
+                          className="block p-4 pl-10 rounded-sm w-50 text-sm text-gray-900 bg-gray-50 border border-gray-300 dark:bg-gray-700 dark:placeholder-gray-400 dark:text-white outline-none" placeholder="Search keywords.."
                           value={ searchTerm }
                           onChange={ onSearchChange }
                         />

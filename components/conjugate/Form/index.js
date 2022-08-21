@@ -25,6 +25,7 @@ const Form = () => {
     }
 
     const [details, setDetails] = useState(createState())
+    console.log(details)
     const [image, setImage] = useState({
         blob: null,
         file: null
@@ -106,10 +107,17 @@ const Form = () => {
                                         placeholder={ field.placeholder }
                                         value={ details[field.id] }
                                         onChange={ e => {
-                                            setDetails({
+                                            if(e.target.id == 'keywords'){
+                                                setDetails({
                                                 ...details,
-                                                [e.target.id]: e.target.value
+                                                [e.target.id]: [e.target.value]
                                             })
+                                            } else {
+                                                setDetails({
+                                                    ...details,
+                                                    [e.target.id]: e.target.value
+                                                })
+                                            }                                            
                                         }}
                                     />
                                 </div>

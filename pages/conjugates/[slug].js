@@ -4,6 +4,7 @@ import Release from "@components/conjugate/Release";
 import { Layout } from "@components/ui";
 import { getDocs, collection } from 'firebase/firestore'
 import { db } from '@firebase/clientApp'
+import Head from "next/head";
 
 
 
@@ -11,6 +12,9 @@ export default function Conjugate ({ conjugate }) {
     return (
         <Layout>
             <div className="mt-28">
+            <Head>
+                <title>{conjugate.names}</title>
+            </Head>
                 {
                     conjugate.gate && <Gate conjugate={ conjugate }/>
                 }
